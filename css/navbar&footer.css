@@ -6,7 +6,6 @@
 }
 
 body {
-  background: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,7 +18,7 @@ hr {
 
 /* navbar */
 nav {
-  background: rgba(236, 151, 151, 0.6274509804);
+  background: rgba(223, 216, 216, 0.6274509804);
   backdrop-filter: blur(40px);
   -webkit-backdrop-filter: blur(100px);
   position: sticky;
@@ -33,7 +32,6 @@ nav {
 
 nav img {
   height: 50px;
-  border: 2px solid #000000;
   border-radius: 100px;
 }
 
@@ -109,4 +107,62 @@ i {
 
 hr {
   margin-top: 50px;
+}
+
+.main-contat {
+  color: white;
+  background-image: url(../images/banner.png);
+  height: 100vh;
+  width: 100%;
+  padding: 90px;
+  background-size: cover;
+  background-repeat: repeat;
+  font-size: 40px;
+  margin: 0 0 50px;
+  font-weight: 800;
+  letter-spacing: -0.6px;
+  align-items: center;
+}
+
+.main-container {
+  background: #e9e9e9;
+  padding: 30px;
+}
+
+.main-middle {
+  background: #f6eeee;
+  display: flex;
+}
+.main-middle img {
+  width: 760px;
+}
+.main-middle .about-shop {
+  width: 50%;
+  margin: 40px;
+}
+.main-middle .main-last {
+  background-image: url(../images/banner-footer.png);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+footer {
+  background: gray;
+}
+
+.footer-logo-under {
+  display: flex;
+}
+
+.footer-logo-under img {
+  background: #444040;
+  margin: 40px;
+  width: 100px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  border-radius: 100px;
 }/*# sourceMappingURL=navbar&footer.css.map */

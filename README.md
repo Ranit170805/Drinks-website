@@ -53,7 +53,7 @@
 
 ### 1. Clone this repository:
 
-git clone https://github.com/Serey002/Cloth-Store.git
+git clone https://github.com/Ranit170805/Drinks-website.git
 cd school-management-system
 ### 2. Navigate into the project folder:
 
@@ -77,10 +77,6 @@ cd cloth-store
 
 # 👥 Contributors
 
-  <a href="https://github.com/Serey002">
-    <img src="./images/profile.png" width="50" 
-    style="border-radius: 50%;" alt="User1"/>
-  </a>
 
 
   <a href="https://github.com/Ranit170805">
@@ -88,10 +84,6 @@ cd cloth-store
     style="border-radius: 50%;" alt="User1"/>
   </a>
 
-  <a href="https://github.com/seyha203">
-    <img src="./images/profile3.png" width="50" 
-    style="border-radius: 50%;" alt="User1"/>
-  </a>
 
 # 📄 License
 

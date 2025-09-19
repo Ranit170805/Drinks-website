@@ -30,7 +30,7 @@ nav{
 
 }
 nav img{
-    height: 50px;
+    height: 80px;
     border-radius: 100px;
 }
 nav ul{
@@ -102,6 +102,7 @@ hr{
 .main-contat{
     color: white;
     background-image: url(../images/banner.png);
+    
     height: 100vh;
     width: 100%;
     padding: 90px;
@@ -139,43 +140,44 @@ hr{
    
 }
 .main-last{
-        background-image: url(https://mindfuldesignconsulting.com/wp-content/uploads/2022/03/Leafly-Boba-Tea-1-845x321.jpg);
+        background-image: url(https://png.pngtree.com/background/20210710/original/pngtree-summer-juice-fresh-milk-tea-poster-background-picture-image_1059610.jpg);
         height: 500px;
         width: 100%;
         background-size: cover;background-repeat: repeat;
-        color: #5d6262;
+        color: #000000;
         font-size:40px;
         // margin:0 0 50px;
         padding: 80px;
-        font-weight:700;
+        font-weight:500;
         letter-spacing: -0.6px;
         align-items: center;
     }
 
 //footer
 footer{
-    background: #a49f9f;
-    color: white;
-    
-}
-.footer-logo-under{
-    padding: 40px;
+    background:#cdc4c4a0;
+    padding: 30px;
     display: flex;
-    justify-content: space-evenly;
-    // flex-direction: column;
-   
-    img{
-        margin: 20px;
-        width: 70px;
-        border-radius: 100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .icon-footer img{
-        display: flex;
-        
-        width: 100px;
-        
-    }
+    justify-content: space-around;
 }
+.foter-content img{
+    width: 100px;
+    border-radius: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.footer-page{
+    a{
+        text-decoration: none;
+    }
+
+    }
+.footer-container{
+    display: flex;
+
+}
+
+
+

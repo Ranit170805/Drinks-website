@@ -140,10 +140,10 @@ hr {
   width: 50%;
   margin: 40px;
 }
-.main-middle .main-last {
-  background-image: url(../images/banner-footer.png);
-  height: 100vh;
-  width: 100%;
+
+.main-last {
+  background-image: url(https://mindfuldesignconsulting.com/wp-content/uploads/2022/03/Leafly-Boba-Tea-1-845x321.jpg);
+  height: 500px;
   background-size: cover;
   background-repeat: repeat;
 }
@@ -154,15 +154,4 @@ footer {
 
 .footer-logo-under {
   display: flex;
-}
-
-.footer-logo-under img {
-  background: #444040;
-  margin: 40px;
-  width: 100px;
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  height: 100px;
-  border-radius: 100px;
 }/*# sourceMappingURL=navbar&footer.css.map */

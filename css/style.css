@@ -19,6 +19,7 @@
 }
 
 .info-product h1 {
+  text-align: center;
   color: rgba(139, 90, 0, 0.671);
 }
 .info-product .type2 {

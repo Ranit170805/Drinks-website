@@ -1,1 +1,59 @@
-/*# sourceMappingURL=style.css.map */
+.main-contat {
+  color: white;
+  background-image: url(../images/banner.png);
+  height: 100vh;
+  width: 100%;
+  padding: 90px;
+  background-size: cover;
+  background-repeat: repeat;
+  font-size: 40px;
+  margin: 0 0 50px;
+  font-weight: 800;
+  letter-spacing: -0.6px;
+  align-items: center;
+}
+
+.main-container {
+  background: #e9e9e9;
+  padding: 30px;
+}
+
+.info-product h1 {
+  color: rgba(139, 90, 0, 0.671);
+}
+.info-product .type2 {
+  background: rgba(140, 129, 129, 0.2549019608);
+  padding: 20px;
+  display: flex;
+  gap: 30px;
+}
+.info-product .type2 .coffee-home {
+  border-right: 4px solid rgb(123, 80, 0);
+  padding: 0px 40px;
+}
+
+.main-middle {
+  background: #f6eeee;
+  display: flex;
+}
+.main-middle img {
+  width: 760px;
+}
+.main-middle .about-shop {
+  width: 50%;
+  margin: 40px;
+}
+
+.main-last {
+  background-image: url(https://png.pngtree.com/background/20210710/original/pngtree-summer-juice-fresh-milk-tea-poster-background-picture-image_1059610.jpg);
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: repeat;
+  color: #000000;
+  font-size: 40px;
+  padding: 80px;
+  font-weight: 500;
+  letter-spacing: -0.6px;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */

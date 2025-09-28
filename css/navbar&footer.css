@@ -3,6 +3,7 @@
   padding: 0;
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -109,78 +110,65 @@ hr {
   margin-top: 50px;
 }
 
-.main-contat {
-  color: white;
-  background-image: url(../images/banner.png);
-  height: 100vh;
-  width: 100%;
-  padding: 90px;
-  background-size: cover;
-  background-repeat: repeat;
-  font-size: 40px;
-  margin: 0 0 50px;
-  font-weight: 800;
-  letter-spacing: -0.6px;
-  align-items: center;
-}
-
-.main-container {
-  background: #e9e9e9;
-  padding: 30px;
-}
-
-.info-product {
-  margin-bottom: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.main-middle {
-  background: #f6eeee;
-  display: flex;
-}
-.main-middle img {
-  width: 760px;
-}
-.main-middle .about-shop {
-  width: 50%;
-  margin: 40px;
-}
-
-.main-last {
-  background-image: url(https://png.pngtree.com/background/20210710/original/pngtree-summer-juice-fresh-milk-tea-poster-background-picture-image_1059610.jpg);
-  height: 500px;
-  width: 100%;
-  background-size: cover;
-  background-repeat: repeat;
-  color: #000000;
-  font-size: 40px;
-  padding: 80px;
-  font-weight: 500;
-  letter-spacing: -0.6px;
-  align-items: center;
-}
-
 footer {
-  background: rgba(205, 196, 196, 0.6274509804);
+  background: #df9c9c;
   padding: 30px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
-
-.foter-content img {
-  width: 100px;
+footer h3 {
+  margin-bottom: 20px;
+}
+footer .footer-container .foter-content img {
+  height: 100px;
   border-radius: 50px;
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
 }
-
-.footer-page a {
+footer .footer-page li {
+  list-style: none;
+}
+footer .footer-page a {
   text-decoration: none;
+  color: black;
+}
+footer .social .socials {
+  display: flex;
+  flex-direction: column;
+}
+footer .social .socials a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transition: color 0.3s ease;
+}
+footer .social .socials a i {
+  color: black;
+  margin-bottom: 6px;
+}
+footer .social .socials a .fa-facebook-f {
+  background: #2b5cfa;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 6px;
+}
+footer .social .socials a .fa-twitter {
+  background: #00acee;
+  color: white;
+  padding: 7px 7px;
+  border-radius: 6px;
+}
+footer .social .socials a .fa-instagram {
+  background: #e13033;
+  color: white;
+  padding: 8px;
+  border-radius: 6px;
+}
+footer .social .socials a .fa-linkedin-in {
+  background: #0e76a8;
+  color: white;
+  padding: 8px;
+  border-radius: 6px;
 }
 
-.footer-container {
-  display: flex;
+#finish {
+  text-align: center;
+  padding: 20px;
 }/*# sourceMappingURL=navbar&footer.css.map */

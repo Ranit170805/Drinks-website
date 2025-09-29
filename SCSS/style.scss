@@ -1,3 +1,7 @@
+body{
+
+    background: #f3f3f3;
+}
 .main-contat{
     color: white;
     background-image: url(../images/banner.png);
@@ -15,10 +19,11 @@
 }
 .main-container{
     background: #e9e9e9;
-    padding: 30px;
+    padding: 50px;
 }
 .info-product{
     h1{
+        margin-bottom: 30px;
         text-align: center;
         color: rgba(139, 90, 0, 0.671);
     }

@@ -31,4 +31,60 @@
   display: flex;
   justify-content: center;
   height: 40px;
+}
+
+.form-all-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  background: #f0eeee;
+  padding: 30px;
+}
+.form-input .form-all {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.form-input .contact-form {
+  display: flex;
+  justify-content: space-evenly;
+}
+.form-input .only-form {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  box-shadow: 0px 0px 1px 0px;
+}
+.form-input .only-form input {
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  text-align: center;
+}
+.form-input .only-form .user-info {
+  display: flex;
+  gap: 40px;
+}
+.form-input .only-form button {
+  width: 100px;
+  height: 30px;
+  background: rgba(0, 128, 0, 0.715);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.form-input .map {
+  margin-top: 40px;
+}
+.form-input .map h2 {
+  margin-bottom: 20px;
 }/*# sourceMappingURL=contact.css.map */

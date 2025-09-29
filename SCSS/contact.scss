@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+    // box-sizing: border-box;
+}
+
+
+ /* -------------------- main-------------------- */
+.banner{
+    background: #000;
+    background-image: url(../images/shop-bg.png);
+    background-size: cover;background-repeat: repeat;
+    height: 400px;
+    display: flex;
+    padding: 80px ;
+    justify-content: center;
+    font-size: 20px;
+}
+
+// .banner{
+    
+// }
+.contact-container{
+    // background: red;
+    display: flex;
+    justify-content: space-around;
+    .location{
+        background: #e2e2e28e;
+        padding: 20px;
+        margin: 100px;
+        border-radius: 10px;
+    
+    }
+    img{
+            display: flex;
+            justify-content: center;
+            height: 40px;
+        }
+}
+// .form-all-name{
+//     display: flex;
+//     flex-direction: column;
+// }
+// .form-input{
+//     background: #ff121246;
+//     display: flex;
+//     // flex-direction: column;
+//     .form-all{
+//         width: 200px;
+//         display: flex;
+//         flex-direction: column;
+//     }
+//     .contact-form{
+         
+//     }
+// }

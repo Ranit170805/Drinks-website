@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/navbar&footer.css">
     <link rel="stylesheet" href="../css/contact.css">
-     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
+    <!-- /* -------------------- nav -------------------- */ -->
     <nav>
         <img src="../images/logo.png" alt="logo">
         <div class="menu3" id="menu3">
@@ -32,48 +31,168 @@
             </div>
         </div>
     </nav>
-    <main></main>
+
+    <!-- /* -------------------- main-------------------- */ -->
+    <main>
+        <section>
+            <div class="banner">
+                <h2>Contact Us</h2>
+            </div>
+
+            <div class="contact-container">
+                <div class="location" id="phone">
+                    <img src="https://cdn-icons-png.flaticon.com/128/126/126509.png" alt="loca">
+                    <h2>Phone</h2>
+                    <p>088 29 90 367</p>
+                </div>
+                <div class="location">
+                    <img src="https://cdn-icons-png.flaticon.com/128/927/927667.png" alt="contact">
+                    <h2>Location</h2>
+                    <p>Pursat</p>
+                </div>
+                <div class="location">
+                    <img src="https://cdn-icons-png.flaticon.com/128/646/646094.png" alt="email">
+                    <h2>Email</h2>
+                    <p>Pursat</p>
+                </div>
+                <div class="location">
+                    <img src="https://cdn-icons-png.flaticon.com/128/3884/3884295.png" alt="time">
+                    <h2>Business Hours</h2>
+                    <p> Mon–Fri: 9:00 AM – 8:00 PMSat–Sun: 10:00 AM – 6:00 PM</p>
+                </div>
+            </div>
+
+            <section>
+                <h2>Contact Us</h2>
+                <p>Fill out the form below and we’ll get back to you soon.</p>
+
+                <form action="#" method="post">
+                    <!-- Full Name -->
+                    <div>
+                        <label for="name">Full Name</label><br>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                    </div>
+                    <br>
+
+                    <!-- Email -->
+                    <div>
+                        <label for="email">Email Address</label><br>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <br>
+
+                    <!-- Phone -->
+                    <div>
+                        <label for="phone">Phone Number</label><br>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone">
+                    </div>
+                    <br>
+
+                    <!-- Subject -->
+                    <div>
+                        <label for="subject">Subject</label><br>
+                        <input type="text" id="subject" name="subject" placeholder="Message subject" required>
+                    </div>
+                    <br>
+
+                    <!-- Message -->
+                    <div>
+                        <label for="message">Message</label><br>
+                        <textarea id="message" name="message" rows="6" placeholder="Write your message..."
+                            required></textarea>
+                    </div>
+                    <br>
+
+                    <!-- Submit -->
+                    <button type="submit">Send Message</button>
+                </form>
+                
+            </section>
+
+            <!-- <div class="form-input">
+                <form action="" class="contact-form">
+                    <p>Send us your message</p>
+                    <div class="form-all-name">
+                        <label for="name">Your Name *</label for="name">
+                        <div class="user-info">
+                            <input class="input-name" type="text" name="name" placeholder="First Name">
+                            <input class="input-name" type="text" name="name" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="form-all">
+                        <label for="email">Your Email *</label>
+                        <input class="input-mail" type="text" name="email" id="email"
+                            placeholder="Ex. Z'rey Nit@gmail.com">
+                    </div>
+                    <div class="form-all">
+                        <label for="phone">Your Phone *</label for="phean">
+                        <input class="input-phone" type="text" name="phone" placeholder="Ex. +855 12 345 678">
+                    </div>
+                    <div class="form-all">
+                        <label for="message">Your Message *</label for="message">
+                        <textarea class="input-message" name="message"
+                            placeholder="Please Send you message!"></textarea>
+                    </div>
+                    <button class="submit-btn" type="submit">Send</button>
+
+                    <div class="map">
+                        <section class="map-section">
+                            <h2>Find Us Here</h2>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.451325618356!2d104.8921662153348!3d11.556373191788809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310950c00b3b5a6b%3A0x43b0df6df20e6d1!2sPhnom%20Penh!5e0!3m2!1sen!2skh!4v1678700000000"
+                                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+                            </iframe>
+                        </section>
+                    </div>
+                </form>
+            </div> -->
+
+        </section>
+    </main>
+
+    <!-- /* -------------------- footer -------------------- */ -->
     <footer>
-            <div class="footer-container">
-                <div class="foter-content">
-                    <img src="../images/logo.png" alt="">
-                    <h3>Daily Drinks</h3>
-                   
-                </div>
+        <div class="footer-container">
+            <div class="foter-content">
+                <img src="../images/logo.png" alt="">
+                <h3>Daily Drinks</h3>
+
             </div>
-            <div class="footer-page">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+        </div>
+        <div class="footer-page">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="social">
+            <h3>Social</h3>
+            <div class="socials">
+                <a href="">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    Facebook
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                    Instagram
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    LinkedIn
+                </a>
             </div>
-            <div class="social">
-                <h3>Social</h3>
-                <div class="socials">
-                    <a href="">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        Facebook
-                    </a>
-                    <a href="">
-                        <i class="fa-brands fa-instagram"></i>
-                        Instagram
-                    </a>
-                    <a href="">
-                        <i class="fa-brands fa-linkedin-in"></i>
-                        LinkedIn
-                    </a>
-                </div>
-            </div>
-            <div class="footer-section">
-                <h3>Contact Us</h3>
-                <p>Email: info@dailydrinks.com</p>
-                <p>Phone: +855 123 456 789</p>
-                <p>Location: Phnom Penh, Cambodia</p>
-            </div>
-        </footer>
-        <p id="finish">© 2025 Fredom Online Shoesiw8 All rights reserved.</p>
+        </div>
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p>Email: info@dailydrinks.com</p>
+            <p>Phone: +855 123 456 789</p>
+            <p>Location: Phnom Penh, Cambodia</p>
+        </div>
+    </footer>
+    <p id="finish">© 2025 Fredom Online Shoesiw8 All rights reserved.</p>
 </body>
+
 </html>

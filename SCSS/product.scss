@@ -57,7 +57,7 @@ main{
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
 
-    .card-milk-tea{
+    .card-milk-tea , card-fresh-fruit{
         margin-bottom: 80px;
         background: #8c818141;
         border-radius: 10px;
@@ -87,4 +87,17 @@ main{
         // border: 2px solid orange;
        }
     }
+    // .card-fresh-fruit{
+    //     margin-bottom: 80px;
+    //     background: #8c818141;
+    //     border-radius: 10px;
+    //      width: 330px;
+    //     display: flex;
+    //     flex-direction: column;
+    //     align-items: center;
+    //     img{
+    //         height: 250px;
+           
+    //     }
+    // }
 }

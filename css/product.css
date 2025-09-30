@@ -56,7 +56,7 @@ main {
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
 }
-.milk-tea .card-milk-tea {
+.milk-tea .card-milk-tea, .milk-tea card-fresh-fruit {
   margin-bottom: 80px;
   background: rgba(140, 129, 129, 0.2549019608);
   border-radius: 10px;
@@ -65,11 +65,11 @@ main {
   flex-direction: column;
   align-items: center;
 }
-.milk-tea .card-milk-tea img {
+.milk-tea .card-milk-tea img, .milk-tea card-fresh-fruit img {
   height: 300px;
   width: 400px;
 }
-.milk-tea .card-milk-tea button {
+.milk-tea .card-milk-tea button, .milk-tea card-fresh-fruit button {
   background: orange;
   color: white;
   font-weight: bold;
@@ -81,7 +81,7 @@ main {
   cursor: pointer;
   transition: 0.3s;
 }
-.milk-tea .card-milk-tea button:hover {
+.milk-tea .card-milk-tea button:hover, .milk-tea card-fresh-fruit button:hover {
   background: white;
   color: orange;
 }/*# sourceMappingURL=product.css.map */

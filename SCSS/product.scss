@@ -28,11 +28,13 @@ main{
 
    
 }
-#milk-tea, #coffee{
+#milk-tea, #coffee, #fruit-tea, #smoothies, #juice{
     text-align: center;
 }
 .menu-coffee-milk{
     padding: 30px 50px;
+    display: flex;
+    gap: 20px;
     a{
         
         color: orange;
@@ -49,6 +51,46 @@ main{
     }
     
 }
+
+.coffee{
+    padding: 30px 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    
+    .card-milk-tea{
+        margin-bottom: 80px;
+        background: #8c818141;
+        border-radius: 10px;
+        width: 330px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       img{
+        height: 300px;
+        width: 300px;
+       }
+       button{
+        background: orange;
+        color: white;
+        font-weight: bold;
+        margin-bottom: 20px;
+        padding: 7px 18px;
+        border: none;
+        border-radius: 10px;
+        margin-left: 50px;
+        cursor: pointer;
+        transition: 0.3s;
+       }
+       button:hover{
+        background: white;
+        color: orange;
+        // border: 2px solid orange;
+       }
+    }
+}
+
 .milk-tea{
     // background: #000;
     padding: 30px 50px;
@@ -87,17 +129,52 @@ main{
         // border: 2px solid orange;
        }
     }
-    // .card-fresh-fruit{
-    //     margin-bottom: 80px;
-    //     background: #8c818141;
-    //     border-radius: 10px;
-    //      width: 330px;
-    //     display: flex;
-    //     flex-direction: column;
-    //     align-items: center;
-    //     img{
-    //         height: 250px;
-           
-    //     }
-    // }
+  
+}
+
+.juice{
+    padding: 30px 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    
+    .card-milk-tea{
+        margin-bottom: 80px;
+        background: #8c818141;
+        border-radius: 10px;
+        width: 330px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       img{
+        padding: 30px;
+        height: 200px;
+        width: 200px;
+       }
+       button{
+        background: orange;
+        color: white;
+        font-weight: bold;
+        margin-bottom: 20px;
+        padding: 7px 18px;
+        border: none;
+        border-radius: 10px;
+        margin-left: 50px;
+        cursor: pointer;
+        transition: 0.3s;
+       }
+       button:hover{
+        background: white;
+        color: orange;
+        // border: 2px solid orange;
+       }
+    }
+
+}
+.card-milk-tea:hover{
+    // color: red;
+    background: #cdcdcd;
+    transform: translateY(-5px);
+    transition: 0.5s;
 }

@@ -28,12 +28,14 @@ main {
   margin-bottom: 300px;
 }
 
-#milk-tea, #coffee {
+#milk-tea, #coffee, #fruit-tea, #smoothies, #juice {
   text-align: center;
 }
 
 .menu-coffee-milk {
   padding: 30px 50px;
+  display: flex;
+  gap: 20px;
 }
 .menu-coffee-milk a {
   color: orange;
@@ -47,6 +49,43 @@ main {
 .menu-coffee-milk a:hover {
   background: orange;
   color: white;
+}
+
+.coffee {
+  padding: 30px 50px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.coffee .card-milk-tea {
+  margin-bottom: 80px;
+  background: rgba(140, 129, 129, 0.2549019608);
+  border-radius: 10px;
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.coffee .card-milk-tea img {
+  height: 300px;
+  width: 300px;
+}
+.coffee .card-milk-tea button {
+  background: orange;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 7px 18px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.coffee .card-milk-tea button:hover {
+  background: white;
+  color: orange;
 }
 
 .milk-tea {
@@ -84,4 +123,48 @@ main {
 .milk-tea .card-milk-tea button:hover, .milk-tea card-fresh-fruit button:hover {
   background: white;
   color: orange;
+}
+
+.juice {
+  padding: 30px 50px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.juice .card-milk-tea {
+  margin-bottom: 80px;
+  background: rgba(140, 129, 129, 0.2549019608);
+  border-radius: 10px;
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.juice .card-milk-tea img {
+  padding: 30px;
+  height: 200px;
+  width: 200px;
+}
+.juice .card-milk-tea button {
+  background: orange;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 7px 18px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.juice .card-milk-tea button:hover {
+  background: white;
+  color: orange;
+}
+
+.card-milk-tea:hover {
+  background: #cdcdcd;
+  transform: translateY(-5px);
+  transition: 0.5s;
 }/*# sourceMappingURL=product.css.map */

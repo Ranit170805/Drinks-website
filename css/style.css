@@ -22,6 +22,10 @@ body {
   padding: 50px;
 }
 
+.info-product {
+  padding: 30px;
+  border-radius: 50px;
+}
 .info-product h1 {
   margin-bottom: 30px;
   text-align: center;
@@ -32,6 +36,7 @@ body {
   padding: 20px;
   display: flex;
   gap: 30px;
+  border-radius: 20px;
 }
 .info-product .type2 .coffee-home {
   border-right: 4px solid rgb(123, 80, 0);
@@ -47,7 +52,7 @@ body {
 }
 .main-middle .about-shop {
   width: 50%;
-  margin: 40px;
+  margin: 65px;
 }
 
 .main-last {
@@ -56,8 +61,7 @@ body {
   width: 100%;
   background-size: cover;
   background-repeat: repeat;
-  color: #000000;
-  font-size: 40px;
+  font-size: 20px;
   padding: 80px;
   font-weight: 500;
   letter-spacing: -0.6px;

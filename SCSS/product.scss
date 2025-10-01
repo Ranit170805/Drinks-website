@@ -33,12 +33,12 @@ main{
 #milk-tea, #coffee, #fruit-tea, #smoothies, #juice{
     text-align: center;
 }
-.menu-coffee-milk{
-    position: sticky;
-    top: 0;
-    z-index: 50;
+// .menu-coffee-milk{
+//     position: sticky;
+//     top: 0;
+//     z-index: 50;
 
-}
+// }
 .menu-coffee-milk{
     padding: 30px 50px;
     display: flex;
@@ -187,12 +187,3 @@ main{
     transform: translateY(-5px);
     transition: 0.5s;
 }
-// #juice{
-//     background: pink;
-//     width: 100px;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     gap: 50%;
-//     border-radius: 20px;
-// }

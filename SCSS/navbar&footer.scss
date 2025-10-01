@@ -29,6 +29,16 @@ nav{
     align-items: center;
 
 }
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    // h3{
+    //     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    // }
+
+    }
 nav img{
     height: 80px;
     border-radius: 100px;

@@ -29,6 +29,15 @@
   padding: 20px;
   margin: 100px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.contact-container .location .time-work {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 .contact-container img {
   display: flex;

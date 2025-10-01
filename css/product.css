@@ -35,12 +35,6 @@ main {
 }
 
 .menu-coffee-milk {
-  position: sticky;
-  top: 0;
-  z-index: 50;
-}
-
-.menu-coffee-milk {
   padding: 30px 50px;
   display: flex;
   gap: 20px;

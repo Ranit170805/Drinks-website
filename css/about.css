@@ -24,8 +24,11 @@ p {
 .about-hero {
   background: url("https://rs-menus-api.roocdn.com/images/8847165d-0f6e-4229-b4c3-98e8b3d44246/image.jpeg?width=1200&height=630&fit=crop") no-repeat center center/cover;
   text-align: center;
-  padding: 80px 20px;
+  height: 400px;
+  padding: 80px;
+  margin: 0px 20px;
   color: white;
+  border-radius: 20px;
 }
 
 .about-hero h1 {
@@ -33,6 +36,7 @@ p {
 }
 
 .about-hero p {
+  color: rgb(255, 255, 255);
   font-size: 1.2rem;
   margin-top: 10px;
 }

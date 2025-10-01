@@ -27,7 +27,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 
 }
 nav img{
@@ -113,10 +112,15 @@ footer{
     }
     .footer-container{
         .foter-content{
+            // display: flex;
+            // flex-direction: column;
+            // text-align: center;
             img{
                 height: 100px;
                 border-radius: 50px;
+
             }
+          
         }
     }
     .footer-page{

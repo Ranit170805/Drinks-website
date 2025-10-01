@@ -16,7 +16,9 @@ main {
   background-size: cover;
   background-repeat: repeat;
   height: 500px;
-  width: 100%;
+  width: 98%;
+  border-radius: 20px;
+  margin: 0px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,6 +32,12 @@ main {
 
 #milk-tea, #coffee, #fruit-tea, #smoothies, #juice {
   text-align: center;
+}
+
+.menu-coffee-milk {
+  position: sticky;
+  top: 0;
+  z-index: 50;
 }
 
 .menu-coffee-milk {

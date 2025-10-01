@@ -11,10 +11,12 @@ main{
 }
 .nava-bg{
     background-image: url(https://boboteashop.com/cdn/shop/files/vecteezy_colorful-bubble-tea-drinks-with-tapioca-pearls-and-ice-in_47063211.jpg?v=1736184586&width=5760);
-    
     background-size: cover;background-repeat: repeat;
     height: 500px;
-    width: 100%;
+    width: 98%;
+    border-radius: 20px ;
+   
+    margin: 0px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,6 +32,12 @@ main{
 }
 #milk-tea, #coffee, #fruit-tea, #smoothies, #juice{
     text-align: center;
+}
+.menu-coffee-milk{
+    position: sticky;
+    top: 0;
+    z-index: 50;
+
 }
 .menu-coffee-milk{
     padding: 30px 50px;
@@ -111,6 +119,7 @@ main{
         height: 300px;
         width: 400px;
        }
+     
        button{
         background: orange;
         color: white;
@@ -178,3 +187,12 @@ main{
     transform: translateY(-5px);
     transition: 0.5s;
 }
+// #juice{
+//     background: pink;
+//     width: 100px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     gap: 50%;
+//     border-radius: 20px;
+// }

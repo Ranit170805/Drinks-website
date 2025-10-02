@@ -91,27 +91,48 @@ body {
   letter-spacing: -0.6px;
   align-items: center;
 }
-@media screen and (max-width: 768px) {
-  .main-last ul {
-    display: none;
-    flex-direction: column;
-    background: #fff;
-    position: absolute;
-    top: 60px;
-    right: 0;
-    width: 200px;
-    padding: 20px;
-    border-left: 1px solid #eee;
-    border-bottom: 1px solid #eee;
+
+@media (max-width: 1134px) {
+  .info-product {
+    padding: 30px;
   }
-  .main-last ul.active {
+  .info-product .type2 {
+    background: rgba(140, 129, 129, 0.2549019608);
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+  }
+  .info-product .type2 img {
+    height: 300px;
+  }
+  .info-product .type2 .coffee-home {
+    width: 150px;
+  }
+  .info-product .type2 img {
+    height: 200px;
+  }
+  .info-product .type2 .juice-home img {
+    margin: 30px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+  }
+  .main-middle {
+    background: #f6eeee;
     display: flex;
   }
-  .main-last .search {
-    display: none;
+  .main-middle img {
+    width: 440px;
   }
-  .main-last .menu3 {
-    display: block;
-    color: #333;
+  .main-middle .about-shop {
+    width: 50%;
+    margin: 65px;
+  }
+  .main-contat {
+    width: 96%;
+    height: 500px;
+    padding: 60px;
+    font-size: 30px;
+    font-weight: 700;
   }
 }/*# sourceMappingURL=style.css.map */

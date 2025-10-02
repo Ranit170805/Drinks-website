@@ -5,7 +5,6 @@ body{
 .main-contat{
     color: white;
     background-image: url(../images/banner.png);
-    
     height: 100vh;
     width: 97%;
     padding: 90px;
@@ -13,8 +12,6 @@ body{
     font-size:40px;
     margin: 0px 20px 50px 20px ;
     border-radius: 20px;
-    // margin: 0px 20px 20px 50px;
-    // margin:0 0 50px;
     font-weight:800;
     letter-spacing: -0.6px;
     align-items: center;
@@ -75,7 +72,7 @@ body{
         }
     }
     
-    }
+}
 
 .main-middle{
     background: #f6eeee;
@@ -91,44 +88,85 @@ body{
    
 }
 .main-last{
-        background-image: url(https://png.pngtree.com/background/20210710/original/pngtree-summer-juice-fresh-milk-tea-poster-background-picture-image_1059610.jpg);
+    background-image: url(https://png.pngtree.com/background/20210710/original/pngtree-summer-juice-fresh-milk-tea-poster-background-picture-image_1059610.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;background-repeat: repeat;
+    font-size:20px;
+    padding: 80px;
+    font-weight:500;
+    letter-spacing: -0.6px;
+    align-items: center;
+}
+
+@media (max-width: 1134px){
+    .info-product{
+        padding: 30px;
+      
+        .type2{
+            background: #8c818141;
+            padding: 20px;
+            display: flex;
+            gap: 30px;
+           
+            .coffee-home{
+        
+            }
+            img{
+                height: 300px;
+            }
+            .coffee-home{
+                width: 150px;
+            }
+            img{
+                height: 200px;
+            }
+            .juice-home{
+               
+                img{
+                    margin: 30px;
+                    height: 150px;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+        
+    }  
+    
+    
+    .main-middle{
+    background: #f6eeee;
+    display: flex;
+    
+    img{
+        width: 440px;
+    }
+    .about-shop{
+        width: 50%;
+        margin: 65px;
+    }
+   
+    }
+
+
+    .main-contat{
+        width: 96%;
         height: 500px;
-        width: 100%;
-        background-size: cover;background-repeat: repeat;
-        // color: #c0c0c0;
-        font-size:20px;
-        // margin:0 0 50px;
-        padding: 80px;
-        font-weight:500;
-        letter-spacing: -0.6px;
-        align-items: center;
+    // color: white;
+    // background-image: url(../images/banner.png);
+    // height: 100vh;
+    // width: 97%;
+    padding: 60px;
+    font-size:30px;
+    // font-size:40px;
+    // background-size: cover;background-repeat: repeat;
+    // margin: 0px 20px 50px 20px ;
+    // border-radius: 20px;
+    font-weight:700;
+    // font-weight:800;
+    // letter-spacing: -0.6px;
+    // align-items: center;
 
-  
-  
- @media screen and (max-width: 768px) {
-      ul {
-        display: none;
-        flex-direction: column;
-        background: #fff;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        width: 200px;
-        padding: 20px;
-        border-left: 1px solid #eee;
-        border-bottom: 1px solid #eee;
-      }
-
-      ul.active {
-        display: flex;
-      }
-
-      .search {
-        display: none;
-      }
-
-      .menu3 {
-        display: block;
-        color: #333;
-      }
-    }  }
+}
+}

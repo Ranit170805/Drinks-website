@@ -93,10 +93,18 @@ p {
 }
 
 /* -------------------- Why Choose Us -------------------- */
-.why-choose { text-align: center; padding: 60px 10%; }
-.why-choose h2 { margin-bottom: 30px; }
+
+.why-choose{
+  text-align: center;
+  padding: 60px 10%;
+}
+.why-choose h2 {
+   margin-bottom: 30px;
+   }
 .choose-grid {
-  display: flex; gap: 30px; justify-content: center;
+  display: flex; 
+  gap: 30px;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .choose-item {
@@ -104,8 +112,11 @@ p {
   width: 260px; text-align: center;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: 0.3s;
 }
-.choose-item img { width: 60px; margin-bottom: 15px; }
-.choose-item:hover { transform: translateY(-6px); }
+.choose-item img {
+   width: 60px;
+    margin-bottom: 15px; }
+.choose-item:hover {
+   transform: translateY(-6px); }
 
 /* -------------------- Team Section -------------------- */
 .team {
@@ -156,17 +167,60 @@ p {
 }
 .testimonial h4 { margin-top: 15px; font-style: normal; }
 
-// .about-container{
-//     display: flex;
 
-// }
-// .about-content{
-//     padding: 70px;
-//     // margin: 70px;
-//     display: flex;
-//     justify-content: space-between;
-//     gap: 50px;
-//     img{
-//         height: 500px;
-//     }
-// }
+@media (max-width: 1134px){
+  .mission-vision {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    // padding: 60px 10%;
+    background: #fff1f1;
+    // flex-wrap: wrap;
+  }
+  
+  .mission-vision .card {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+  }
+  
+
+  // mission
+  // .mission-vision .card:hover {
+  //   transform: translateY(-8px);
+  // }
+
+  .why-choose{
+  text-align: center;
+  // padding: 60px 10%;
+}
+.why-choose h2 {
+   margin-bottom: 30px;
+   }
+.choose-grid {
+  display: flex; 
+  gap: 30px;
+  justify-content: center;
+  // flex-wrap: wrap;
+}
+.choose-item {
+  
+  width: 200px; text-align: center;
+  
+}
+.team-cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  width: 190px;
+ 
+}
+}

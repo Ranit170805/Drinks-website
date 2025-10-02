@@ -196,4 +196,46 @@ p {
 .testimonial h4 {
   margin-top: 15px;
   font-style: normal;
+}
+
+@media (max-width: 1134px) {
+  .mission-vision {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    background: #fff1f1;
+  }
+  .mission-vision .card {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+  }
+  .why-choose {
+    text-align: center;
+  }
+  .why-choose h2 {
+    margin-bottom: 30px;
+  }
+  .choose-grid {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
+  .choose-item {
+    width: 200px;
+    text-align: center;
+  }
+  .team-cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+  .team-member {
+    width: 190px;
+  }
 }/*# sourceMappingURL=about.css.map */

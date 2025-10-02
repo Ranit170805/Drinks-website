@@ -100,4 +100,30 @@
 }
 .form-input .map h2 {
   margin-bottom: 20px;
+}
+
+@media (max-width: 1134px) {
+  .contact-container {
+    margin: 20px;
+    display: flex;
+  }
+  .contact-container .location {
+    background: rgba(226, 226, 226, 0.5568627451);
+    margin: 10px 0px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-container .time-work {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .contact-container img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+  }
 }/*# sourceMappingURL=contact.css.map */

@@ -188,5 +188,28 @@ footer{
     padding: 20px;
 }
 
+// tablet
+@media (max-width: 834px){
+    // nav
+    // .search{
+    //     .search-input{
+    //         width: 80px;
+    //         height: 100px;
+    //         background: #000;
+    //     }
+
+    // }
+ .search-input input{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 20px;
+    height: 10px;
+    width: 150px;
+    outline: none;
+}
+
+
+    
+}
+
 
 

@@ -19,6 +19,7 @@
             <h3>Daily Drinks</h3>
         </div>
         <div class="menu3" id="menu3">
+            <i class="fa-solid fa-bars"></i>
         </div>
         <ul id="menu">
             <li><a href="#">HOME</a></li>
@@ -151,6 +152,14 @@
             </div>
         </footer>
         <p id="finish">© 2025 Fredom Online Shoesiw8 All rights reserved.</p>
+    <script>
+    const menuIcon = document.getElementById("menu3");
+    const menu = document.getElementById("menu");
+
+    menuIcon.addEventListener("click", () => {
+      menu.classList.toggle("active");
+    });
+  </script>
 </body>
 
 </html>

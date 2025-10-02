@@ -103,4 +103,32 @@ body{
         letter-spacing: -0.6px;
         align-items: center;
 
-    }
+  
+  
+ @media screen and (max-width: 768px) {
+      ul {
+        display: none;
+        flex-direction: column;
+        background: #fff;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 200px;
+        padding: 20px;
+        border-left: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+      }
+
+      ul.active {
+        display: flex;
+      }
+
+      .search {
+        display: none;
+      }
+
+      .menu3 {
+        display: block;
+        color: #333;
+      }
+    }  }

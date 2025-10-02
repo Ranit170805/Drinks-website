@@ -39,6 +39,14 @@ main{
 //     z-index: 50;
 
 // }
+.grid-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 30px;
+      max-width: 1000px;
+      margin: auto;
+    }
 .menu-coffee-milk{
     padding: 30px 50px;
     display: flex;
@@ -186,4 +194,19 @@ main{
     background: #cdcdcd;
     transform: translateY(-5px);
     transition: 0.5s;
+}
+
+
+
+@media (max-width: 1134px){
+    .nava-bg{
+        width: 95%;
+    }
+    .coffee , .milk-tea ,.juice{
+        padding: 30px 50px;
+        // width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }     
 }

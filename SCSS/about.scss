@@ -187,12 +187,7 @@ p {
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     transition: 0.3s;
   }
-  
 
-  // mission
-  // .mission-vision .card:hover {
-  //   transform: translateY(-8px);
-  // }
 
   .why-choose{
   text-align: center;
@@ -223,4 +218,27 @@ p {
   width: 190px;
  
 }
+}
+
+
+@media (max-width:834px){
+  .about-hero {
+    height: 200px;
+    padding: 2px ;
+    margin: 0px 20px;
+    display: flex;
+    h1{
+      font-size: 30px;
+      font-weight: 20px;
+    }
+   
+  }
+  .about-container{
+    width: 200px;
+     .about-container{
+      width: 300px;
+      display: flex;
+     }
+  }
+
 }

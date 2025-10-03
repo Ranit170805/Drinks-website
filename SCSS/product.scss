@@ -33,12 +33,7 @@ main{
 #milk-tea, #coffee, #fruit-tea, #smoothies, #juice{
     text-align: center;
 }
-// .menu-coffee-milk{
-//     position: sticky;
-//     top: 0;
-//     z-index: 50;
 
-// }
 .grid-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -52,7 +47,6 @@ main{
     display: flex;
     gap: 20px;
     a{
-        
         color: orange;
         padding: 5px 20px;
         background: none;
@@ -108,7 +102,6 @@ main{
 }
 
 .milk-tea{
-    // background: #000;
     padding: 30px 50px;
     width: 100%;
     display: grid;
@@ -209,4 +202,100 @@ main{
         grid-template-columns: repeat(2, 1fr);
         gap: 30px;
     }     
+}
+
+// phone
+@media (max-width: 834px){
+    .nava-bg{
+        height: 200px;
+        padding: 80px;
+        h1{
+            margin: 10px;
+            font-size: 30px;
+        }
+    }
+    .coffee , .milk-tea ,.juice{
+        padding: 30px 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    } 
+    .menu-coffee-milk{
+    padding: 20px;
+    display: flex;
+    gap: 10px;  
+    a{
+        padding: 5px;
+        border: 1.5px solid orange;
+        font-size: 10px;
+    }
+    }
+    .coffee{
+    padding: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    
+    .card-milk-tea{
+        margin-bottom: 80px;
+        width: 180px;
+       img{
+            height: 100px;
+            width: 100px;
+       }
+       button{
+            padding: 7px 18px;
+            
+       }
+    
+    }
+    // milk-tea
+    .milk-tea{
+    padding: 20px;
+    width: 100px;
+
+    .card-milk-tea {
+        margin-bottom: 80px;
+        background: #f20505;
+        width: 100px;
+       img{
+            height: 0px;
+            width: 100px;
+       }
+     
+       button{
+            color: red;
+       }
+       
+    }
+  
+    .juice{
+        padding: 30px 50px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 30px;
+        
+        .card-milk-tea{
+            margin-bottom: 80px;
+            background: #8c818141;
+            border-radius: 10px;
+            width: 330px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           img{
+            padding: 30px;
+            height: 200px;
+            width: 200px;
+           }
+        
+        }
+    
+    }
+    }
+}
+
+
 }

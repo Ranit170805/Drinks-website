@@ -190,4 +190,85 @@ main {
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
   }
+}
+@media (max-width: 834px) {
+  .nava-bg {
+    height: 200px;
+    padding: 80px;
+  }
+  .nava-bg h1 {
+    margin: 10px;
+    font-size: 30px;
+  }
+  .coffee, .milk-tea, .juice {
+    padding: 30px 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .menu-coffee-milk {
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  .menu-coffee-milk a {
+    padding: 5px;
+    border: 1.5px solid orange;
+    font-size: 10px;
+  }
+  .coffee {
+    padding: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .coffee .card-milk-tea {
+    margin-bottom: 80px;
+    width: 180px;
+  }
+  .coffee .card-milk-tea img {
+    height: 100px;
+    width: 100px;
+  }
+  .coffee .card-milk-tea button {
+    padding: 7px 18px;
+  }
+  .coffee .milk-tea {
+    padding: 20px;
+    width: 100px;
+  }
+  .coffee .milk-tea .card-milk-tea {
+    margin-bottom: 80px;
+    background: #f20505;
+    width: 100px;
+  }
+  .coffee .milk-tea .card-milk-tea img {
+    height: 0px;
+    width: 100px;
+  }
+  .coffee .milk-tea .card-milk-tea button {
+    color: red;
+  }
+  .coffee .milk-tea .juice {
+    padding: 30px 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+  }
+  .coffee .milk-tea .juice .card-milk-tea {
+    margin-bottom: 80px;
+    background: rgba(140, 129, 129, 0.2549019608);
+    border-radius: 10px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .coffee .milk-tea .juice .card-milk-tea img {
+    padding: 30px;
+    height: 200px;
+    width: 200px;
+  }
 }/*# sourceMappingURL=product.css.map */

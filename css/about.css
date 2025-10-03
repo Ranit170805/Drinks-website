@@ -238,4 +238,23 @@ p {
   .team-member {
     width: 190px;
   }
+}
+@media (max-width: 834px) {
+  .about-hero {
+    height: 200px;
+    padding: 2px;
+    margin: 0px 20px;
+    display: flex;
+  }
+  .about-hero h1 {
+    font-size: 30px;
+    font-weight: 20px;
+  }
+  .about-container {
+    width: 200px;
+  }
+  .about-container .about-container {
+    width: 300px;
+    display: flex;
+  }
 }/*# sourceMappingURL=about.css.map */

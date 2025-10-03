@@ -184,8 +184,31 @@ footer .social .socials a .fa-linkedin-in {
   .search-input input {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border-radius: 20px;
-    height: 10px;
+    height: 30px;
     width: 150px;
     outline: none;
+  }
+}
+@media (max-width: 480px) {
+  footer h3 {
+    font-size: 10px;
+  }
+  footer .footer-container img {
+    display: none;
+  }
+  footer .footer-container h3 {
+    display: none;
+  }
+  footer .footer-page a {
+    font-size: 10px;
+  }
+  footer .social .socials a {
+    font-size: 10px;
+  }
+  footer .social .socials a i {
+    height: 24px;
+  }
+  footer .footer-section p {
+    font-size: 10px;
   }
 }/*# sourceMappingURL=navbar&footer.css.map */

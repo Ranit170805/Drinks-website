@@ -190,26 +190,55 @@ footer{
 
 // tablet
 @media (max-width: 834px){
-    // nav
-    // .search{
-    //     .search-input{
-    //         width: 80px;
-    //         height: 100px;
-    //         background: #000;
-    //     }
-
-    // }
- .search-input input{
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    border-radius: 20px;
-    height: 10px;
-    width: 150px;
-    outline: none;
+    .search-input input{
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        border-radius: 20px;
+        height: 30px;
+        width: 150px;
+        outline: none;
+    }
 }
 
 
-    
+// phone
+@media (max-width: 480px){
+    .search-input input{
+  
+    }
+
+    // footer
+    footer{
+    h3{
+        font-size: 10px;
+    }
+    .footer-container{
+        img{
+            display: none;
+        }
+        h3{
+            display: none;
+        }
+    }
+    .footer-page{
+        a{
+            font-size: 10px;
+        }
+    }
+    .social{
+        .socials{
+            a{
+               font-size: 10px;
+                i{
+                    height: 24px;
+                }
+            }
+        }
+    }
+    .footer-section{
+        p{
+            font-size: 10px;
+        }
+    }
 }
 
-
-
+}

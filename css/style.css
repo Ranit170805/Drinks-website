@@ -50,27 +50,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-right: 2px solid rgb(123, 80, 0);
 }
 .info-product .type2 img {
   height: 200px;
 }
-.info-product .type2 .juice-home {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .info-product .type2 .juice-home img {
   margin: 30px;
   height: 150px;
-  display: flex;
-  justify-content: center;
 }
 
-.main-middle {
-  background: #f6eeee;
-  display: flex;
-}
 .main-middle img {
   width: 760px;
 }
@@ -118,7 +106,7 @@ body {
     justify-content: center;
   }
   .main-middle {
-    background: #f6eeee;
+    background: #e40f0f;
     display: flex;
   }
   .main-middle img {
@@ -134,5 +122,70 @@ body {
     padding: 60px;
     font-size: 30px;
     font-weight: 700;
+  }
+}
+@media (max-width: 834px) {
+  .main-contat {
+    width: 400px;
+    height: 300px;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .info-product {
+    padding: 30px;
+  }
+  .info-product .type2 {
+    padding: 10px;
+    height: 110px;
+    display: flex;
+    gap: 5px;
+    margin-bottom: 30px;
+  }
+  .info-product .type2 img {
+    height: 110px;
+    padding-bottom: 40px;
+  }
+  .info-product .type2 .coffee-home {
+    width: 70px;
+    font-size: 10px;
+    gap: 5px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  .info-product .type2 .juice-home {
+    padding-top: 20px;
+    font-size: 10px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+  }
+  .info-product .type2 .juice-home img {
+    margin: 0px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    height: 100px;
+    width: 90px;
+    margin-bottom: 10px;
+  }
+  .main-container {
+    background: #1cd2ff;
+    padding: 20px;
+  }
+  .main-middle {
+    background: #3d40cf;
+  }
+  .main-middle img {
+    width: 388px;
+    height: 300px;
+  }
+  .main-middle .about-shop {
+    display: none;
+  }
+  .main-last {
+    height: 150px;
+    font-size: 10px;
+    padding: 20px;
   }
 }/*# sourceMappingURL=style.css.map */

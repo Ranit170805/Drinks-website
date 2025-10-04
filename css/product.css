@@ -194,21 +194,14 @@ main {
 @media (max-width: 834px) {
   .nava-bg {
     height: 200px;
+    width: 350px;
     padding: 80px;
   }
   .nava-bg h1 {
     margin: 10px;
     font-size: 30px;
   }
-  .coffee, .milk-tea, .juice {
-    padding: 30px 50px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-  }
   .menu-coffee-milk {
-    padding: 20px;
-    display: flex;
     gap: 10px;
   }
   .menu-coffee-milk a {
@@ -218,21 +211,23 @@ main {
   }
   .coffee {
     padding: 20px;
-    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    gap: 20px;
   }
   .coffee .card-milk-tea {
     margin-bottom: 80px;
-    width: 180px;
+    width: 150px;
   }
   .coffee .card-milk-tea img {
     height: 100px;
     width: 100px;
   }
   .coffee .card-milk-tea button {
-    padding: 7px 18px;
+    background: chocolate;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .coffee .milk-tea {
     padding: 20px;
@@ -240,21 +235,20 @@ main {
   }
   .coffee .milk-tea .card-milk-tea {
     margin-bottom: 80px;
-    background: #f20505;
     width: 100px;
   }
   .coffee .milk-tea .card-milk-tea img {
-    height: 0px;
+    height: 100px;
     width: 100px;
   }
   .coffee .milk-tea .card-milk-tea button {
-    color: red;
+    color: rgb(213, 213, 213);
   }
   .coffee .milk-tea .juice {
     padding: 30px 50px;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
   }
   .coffee .milk-tea .juice .card-milk-tea {
@@ -268,7 +262,7 @@ main {
   }
   .coffee .milk-tea .juice .card-milk-tea img {
     padding: 30px;
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
   }
 }/*# sourceMappingURL=product.css.map */

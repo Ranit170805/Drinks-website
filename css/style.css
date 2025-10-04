@@ -59,6 +59,9 @@ body {
   height: 150px;
 }
 
+.main-middle {
+  display: flex;
+}
 .main-middle img {
   width: 760px;
 }
@@ -78,6 +81,7 @@ body {
   font-weight: 500;
   letter-spacing: -0.6px;
   align-items: center;
+  display: flex;
 }
 
 @media (max-width: 1134px) {
@@ -126,14 +130,14 @@ body {
 }
 @media (max-width: 834px) {
   .main-contat {
-    width: 400px;
-    height: 300px;
-    padding: 40px;
+    width: 390px;
+    height: 250px;
+    padding: 30px;
     font-size: 13px;
     font-weight: 500;
   }
   .info-product {
-    padding: 30px;
+    padding: 20px;
   }
   .info-product .type2 {
     padding: 10px;

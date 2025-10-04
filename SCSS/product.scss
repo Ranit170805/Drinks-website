@@ -208,39 +208,32 @@ main{
 @media (max-width: 834px){
     .nava-bg{
         height: 200px;
-        width: 350px;
+        width:390px;
         padding: 80px;
         h1{
             margin: 10px;
             font-size: 30px;
         }
     }
-    // .coffee , .milk-tea ,.juice{
-    //     padding: 30px 50px;
-    //     display: grid;
-    //     grid-template-columns: repeat(2, 1fr);
-    //     gap: 30px;
-    // } 
+   
     .menu-coffee-milk{
-    // padding: 20px;
-    // display: flex;
-    gap: 10px;  
-    a{
-        padding: 5px;
-        border: 1.5px solid orange;
-        font-size: 10px;
-    }
+        a{
+            padding: 5px;
+            border: 1.5px solid orange;
+            font-size: 10px;
+        }
     }
     .coffee{
-    padding: 20px;
-    // width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+        // padding: 20px;
+        // width: 100%;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
     
     .card-milk-tea{
-        margin-bottom: 80px;
-        width: 150px;
+        margin-bottom: 10px;
+        width: 160px;
         
        img{
             height: 100px;
@@ -258,16 +251,20 @@ main{
     }
     // milk-tea
     .milk-tea{
-    padding: 20px;
-    width: 100px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
 
     .card-milk-tea {
-        margin-bottom: 80px;
-        // background: #5111ff;
-        width: 100px;
+        margin-bottom: 10px;
+        width: 160px;
        img{
             height: 100px;
             width: 100px;
+       }
+       .dec{
+        
        }
      
        button{

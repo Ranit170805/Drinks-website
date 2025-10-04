@@ -194,15 +194,12 @@ main {
 @media (max-width: 834px) {
   .nava-bg {
     height: 200px;
-    width: 350px;
+    width: 390px;
     padding: 80px;
   }
   .nava-bg h1 {
     margin: 10px;
     font-size: 30px;
-  }
-  .menu-coffee-milk {
-    gap: 10px;
   }
   .menu-coffee-milk a {
     padding: 5px;
@@ -210,14 +207,14 @@ main {
     font-size: 10px;
   }
   .coffee {
-    padding: 20px;
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
   .coffee .card-milk-tea {
-    margin-bottom: 80px;
-    width: 150px;
+    margin-bottom: 10px;
+    width: 160px;
   }
   .coffee .card-milk-tea img {
     height: 100px;
@@ -230,12 +227,14 @@ main {
     justify-content: center;
   }
   .coffee .milk-tea {
-    padding: 20px;
-    width: 100px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
   .coffee .milk-tea .card-milk-tea {
-    margin-bottom: 80px;
-    width: 100px;
+    margin-bottom: 10px;
+    width: 160px;
   }
   .coffee .milk-tea .card-milk-tea img {
     height: 100px;

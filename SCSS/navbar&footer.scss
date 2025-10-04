@@ -40,7 +40,7 @@ nav{
 
     }
 nav img{
-    height: 80px;
+    height: 100px;
     border-radius: 100px;
 }
 nav ul{
@@ -61,7 +61,7 @@ nav ul li a {
     transition: color 0.3s ease, transform 0.3s ease;
 }
 /* hiddent icon menu */
-.menu-toggle {
+.menu3{
     display: none;
     font-size: 24px;
     cursor: pointer;
@@ -202,10 +202,48 @@ footer{
 
 // phone
 @media (max-width: 480px){
-    .search-input input{
-  
+    .menu3{
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+    }
+    ul {
+        display: none;
+        flex-direction: column;
+        background: #d7d7d792;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100px;
+        padding: 10px;
+        border-left: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+      }
+    nav{
+        background: #dfd8d8a0;
+        backdrop-filter: blur(40px);
+        -webkit-backdrop-filter: blur(100px);
+        position:sticky;
+        top:0;
+        z-index:50;
+        padding: 14px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    .nav-logo{
+        img{
+            height: 60px;
+            border-radius: 100px;
+        }
+        h3{
+            display: none;
+        }
+    }
+    .search{
+        margin-right: 50px;
     }
 
+    }
     // footer
     footer{
     h3{

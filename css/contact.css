@@ -126,4 +126,18 @@
     align-items: center;
     height: 40px;
   }
+}
+@media (max-width: 834px) {
+  .banner {
+    height: 200px;
+    margin: 0px 20px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+  }
+  .contact-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
 }/*# sourceMappingURL=contact.css.map */

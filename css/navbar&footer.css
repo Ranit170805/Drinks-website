@@ -37,9 +37,12 @@ nav {
   align-items: center;
   gap: 20px;
 }
+.nav-logo h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
 
 nav img {
-  height: 100px;
+  height: 80px;
   border-radius: 100px;
 }
 
@@ -181,12 +184,11 @@ footer .social .socials a .fa-linkedin-in {
 }
 
 @media (max-width: 834px) {
-  .search-input input {
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    border-radius: 20px;
-    height: 30px;
-    width: 150px;
-    outline: none;
+  .nav-logo img {
+    height: 200px;
+  }
+  .search-input {
+    margin-right: 20px;
   }
 }
 @media (max-width: 480px) {

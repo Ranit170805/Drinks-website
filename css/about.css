@@ -241,20 +241,20 @@ p {
 }
 @media (max-width: 834px) {
   .about-hero {
+    width: 360px;
     height: 200px;
-    padding: 2px;
-    margin: 0px 20px;
-    display: flex;
+    padding: 30px;
+    font-weight: 500;
+    letter-spacing: -0.6px;
   }
   .about-hero h1 {
     font-size: 30px;
-    font-weight: 20px;
+    font-weight: 30px;
   }
-  .about-container {
-    width: 200px;
+  .about-container .about-text p {
+    display: none;
   }
-  .about-container .about-container {
-    width: 300px;
-    display: flex;
+  .mission-vision .card {
+    width: 400px;
   }
 }/*# sourceMappingURL=about.css.map */

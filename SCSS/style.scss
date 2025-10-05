@@ -32,26 +32,39 @@ body{
     }
 
     .type2{
+        // background: #ea2020;
         background: #8c818141;
-        padding: 20px;
+        padding: 30px;
         display: flex;
-        gap: 30px;
         border-radius: 20px;
 
         .coffee-home{
-            border-right: 2px solid rgb(123, 80, 0);
-        }
-        img{
-            height: 200px;
-        }
-        .coffee-home{
             display: flex;
             flex-direction: column;
+            justify-content: space-between;
             align-items: center;
-            
+            border-right: 2px solid rgb(123, 80, 0);
         }
-        img{
-            height: 200px;
+            img{
+                height: 200px;
+                // width: 300px;
+        }
+
+        // .coffee-home{
+        //     display: flex;
+        //     flex-direction: column;
+        //     align-items: center;
+            
+        // }
+        //     img{
+        //     height: 200px;
+        // }
+
+        .smootie-home{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
         .juice-home{
             // display: flex;
@@ -78,7 +91,7 @@ body{
    
 }
 .main-last{
-    background-image: url(https://png.pngtree.com/background/20210710/original/pngtree-summer-juice-fresh-milk-tea-poster-background-picture-image_1059610.jpg);
+    background-image: url(../images/banner-last.png);
     height: 500px;
     width: 100%;
     background-size: cover;background-repeat: repeat;
@@ -86,8 +99,9 @@ body{
     padding: 80px;
     font-weight:500;
     letter-spacing: -0.6px;
-    align-items: center;
+    // align-items: center;
     display: flex;
+    flex-direction: column;
 }
 
 @media (max-width: 1134px){
@@ -109,19 +123,19 @@ body{
             img{
                 height: 200px;
             }
-            .juice-home{
-                img{
-                    margin: 30px;
-                    height: 150px;
-                    display: flex;
-                    justify-content: center;
-                }
-            }
+            // .juice-home{
+            //     img{
+            //         margin: 30px;
+            //         height: 150px;
+            //         display: flex;
+            //         justify-content: center;
+            //     }
+            // }
         }
         
     }  
     .main-middle{
-    background: #e40f0f;
+    // background: #e40f0f;
     display: flex;
     
     img{
@@ -140,7 +154,11 @@ body{
         font-size:30px;
         font-weight:700;
 
-}
+    }
+    .main-last{
+        height: 300px;
+        // width: 300px;
+    }
 }
 
 // phone
@@ -177,21 +195,21 @@ body{
             }
             .juice-home{
                     padding-top: 20px;
-                    
                     font-size: 10px;
                     display: flex;
-                    gap: 5px;
+                    gap: 15px;
                     flex-direction: column;
                     // padding-bottom: 10px;
                 img{
                     margin: 0px;
                     // padding: 20px;
-                    padding-right: 40px;
+                    padding-right: 30px;
                     padding-bottom: 20px;
-                    padding-top: 30px;
-                    height: 100px;
-                    width: 90px;
+                    padding-top: 10px;
+                    height: 90px;
+                    width: 80px;
                     margin-bottom: 10px;
+                    display: flex;
                   
                 }
             }
@@ -199,33 +217,43 @@ body{
         
     }  
     .main-container{
-        background: #1cd2ff;
+        margin-top: 40px;
         padding: 20px;
-}
-    .main-middle{
-
-        background: #3d40cf;
-        // display: flex;
-    
-    img{
-        width: 388px;
-        height: 300px;
-    }
-    .about-shop{
-        display: none;
-        // background: pink;
-        // width: 500px;
-        // margin: 30px;
+        .main-middle{
+            display: flex;
+            // flex-direction: column;
+            img{
+                height: 180px;
+                width: 190px;
+            }
+            h1{
+                font-size: 12px;
+            }
         }
-   
-    }
-    .main-last{
+        .about-shop{
+            display: flex;
+            // flex-direction: column;
+            p{
+                display: none;
+            }
+            
+            }
+            // background: pink;
+            // width: 500px;
+            // margin: 30px;
+            }
+        .main-last{
         // width: 300px;
         height: 150px;
         font-size: 10px;
         padding: 20px;
        
     }
+    }
+     
+
+    
+   
   
 
-}
+

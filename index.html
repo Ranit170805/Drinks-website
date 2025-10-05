@@ -6,31 +6,36 @@
     <title>Daily Drinks</title>
     <link rel="stylesheet" href="./css/navbar&footer.css">
     <link rel="stylesheet" href="./css/style.css">
-   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="nav-logo">
-            <img src="./images/logo-new.png" alt="logo">
-            <h3>Daily Drinks</h3>
-        </div>
-        <ul id="menu">
-            <li><a href="#">HOME</a></li>
-            <li><a href="./pages/product.html">PRODUCT</a></li>
-            <li><a href="./pages/about.html">ABOUT</a></li>
-            <li><a href="./pages/contact.html">CONTACT</a></li>
-        </ul>
-        <div class="search">
-            <div class="search-input">
-                <input class="input-mail" type="text" name="name" id="name" placeholder="Search" />
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
-        </div>
-        <div class="menu3" id="menu3">
-            <label for="menu-toggle" class="menu-icon">☰</label>
-        </div>
-    </nav>
+    <nav>
+    <div class="nav-logo">
+      <img src="./images/logo.png" alt="logo">
+      <h3>Daily Drinks</h3>
+    </div>
+
+    <div class="menu3" id="menu3">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+
+    <ul id="menu">
+      <li><a href="#">HOME</a></li>
+      <li><a href="./pages/product.html">PRODUCT</a></li>
+      <li><a href="./pages/about.html">ABOUT</a></li>
+      <li><a href="./pages/contact.html">CONTACT</a></li>
+    </ul>
+
+    <div class="search">
+      <div class="search-input">
+        <input class="input-mail" type="text" name="name" id="name" placeholder="Search" />
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </div>
+  </nav>
     <!-- main -->
     <main>
         <div class="main-contat">
@@ -155,7 +160,13 @@
             </div>
         </footer>
         <p id="finish">© 2025 Daily Drinks All rights reserved.</p>
+        <script>
+            const menuIcon = document.getElementById("menu3");
+            const menu = document.getElementById("menu");
 
+            menuIcon.addEventListener("click", () => {
+            menu.classList.toggle("active");
+            });
+  </script>
 </body>
-
 </html>

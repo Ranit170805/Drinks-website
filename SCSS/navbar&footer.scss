@@ -240,31 +240,24 @@ footer {
 
 // phone
 @media (max-width: 480px) {
+    .menu3 {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
     ul {
         display: none;
         flex-direction: column;
-        background: #fff;
+        background: #d7d7d792;
         position: absolute;
         top: 60px;
         right: 0;
-        width: 200px;
-        padding: 20px;
+        width: 100px;
+        padding: 10px;
         border-left: 1px solid #eee;
         border-bottom: 1px solid #eee;
-      }
-
-      ul.active {
-        display: flex;
-      }
-
-      .search {
-        display: none;
-      }
-
-      .menu3 {
-        display: block;
-        color: #333;
-      }
+    }
 
     nav {
         background: #dfd8d8a0;
@@ -286,6 +279,11 @@ footer {
             h3 {
                 display: none;
             }
+        }
+        .search-input {
+            // margin-right: 30px;
+           
+            
         }
     }
     // footer

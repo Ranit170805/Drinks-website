@@ -118,7 +118,7 @@ footer{
     display: flex;
     justify-content: space-around;
     h3{
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     .footer-container{
         .foter-content{
@@ -258,20 +258,24 @@ footer{
     .footer-container{
         img{
             display: none;
+            
         }
         h3{
             display: none;
         }
     }
     .footer-page{
+        h3{
+            display: none;
+        }
         a{
-            font-size: 10px;
+            font-size: 20px;
         }
     }
     .social{
         .socials{
             a{
-               font-size: 10px;
+               font-size: 8px;
                 i{
                     height: 24px;
                 }

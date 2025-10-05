@@ -34,6 +34,14 @@
             <i class="fa-solid fa-bars"></i>
         </div>
     </nav>
+     <script>
+    const menuIcon = document.getElementById("menu3");
+    const menu = document.getElementById("menu");
+
+    menuIcon.addEventListener("click", () => {
+      menu.classList.toggle("active");
+    });
+  </script>
     <!-- main -->
     <main>
         <div class="main-contat">
@@ -121,7 +129,7 @@
             </div>
             <div class="footer-page">
                 <h3>Quick Links</h3>
-                <ul>
+                <ul id="menu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Menu</a></li>
                     <li><a href="#">About Us</a></li>
@@ -153,14 +161,7 @@
             </div>
         </footer>
         <p id="finish">© 2025 Daily Drinks All rights reserved.</p>
-    <script>
-    const menuIcon = document.getElementById("menu3");
-    const menu = document.getElementById("menu");
-
-    menuIcon.addEventListener("click", () => {
-      menu.classList.toggle("active");
-    });
-  </script>
+   
 </body>
 
 </html>

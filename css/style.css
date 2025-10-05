@@ -55,16 +55,22 @@ body {
   justify-content: center;
   align-items: center;
 }
+.info-product .type2 .juice-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .info-product .type2 .juice-home img {
   margin: 30px;
-  height: 150px;
+  height: 130px;
 }
 
 .main-middle {
   display: flex;
 }
 .main-middle img {
-  width: 760px;
+  width: 756px;
 }
 .main-middle .about-shop {
   width: 50%;

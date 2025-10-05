@@ -1,19 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily Drinks</title>
     <link rel="stylesheet" href="./css/navbar&footer.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
 </head>
 
 <body>
-    <nav>
+    <nav class="navbar">
         <div class="nav-logo">
             <img src="./images/logo-new.png" alt="logo">
             <h3>Daily Drinks</h3>
@@ -31,17 +28,9 @@
             </div>
         </div>
         <div class="menu3" id="menu3">
-            <i class="fa-solid fa-bars"></i>
+            <label for="menu-toggle" class="menu-icon">☰</label>
         </div>
     </nav>
-     <script>
-    const menuIcon = document.getElementById("menu3");
-    const menu = document.getElementById("menu");
-
-    menuIcon.addEventListener("click", () => {
-      menu.classList.toggle("active");
-    });
-  </script>
     <!-- main -->
     <main>
         <div class="main-contat">
@@ -54,41 +43,46 @@
             <p id="p">This is our drinks that best seller in shop</p>
             <div class="type2">
                 <div class="coffee-home">
-                    <img src="https://static.wixstatic.com/media/acecb8_508fe91570fa4b46b6e673481f30f58c~mv2.png/v1/fill/w_634,h_476,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/1_Signature%20Bubble%20Milk%20Tea.png" alt="">
+                    <img src="https://static.wixstatic.com/media/acecb8_508fe91570fa4b46b6e673481f30f58c~mv2.png/v1/fill/w_634,h_476,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/1_Signature%20Bubble%20Milk%20Tea.png"
+                        alt="">
                     <h3>Coffee</h3>
                     <p>Price : $1.25</p>
-                    
+
                 </div>
-                
+
                 <div class="coffee-home">
-                    <img src="https://static.wixstatic.com/media/acecb8_c7490984174f426d8ca7be122f9f901f~mv2.png/v1/fill/w_634,h_476,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/2_Brown%20Sugar%20Boba%20Milk.png" alt="">
+                    <img src="https://static.wixstatic.com/media/acecb8_c7490984174f426d8ca7be122f9f901f~mv2.png/v1/fill/w_634,h_476,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/2_Brown%20Sugar%20Boba%20Milk.png"
+                        alt="">
                     <h3>Milk tea</h3>
                     <p>Price : $1.25</p>
-                   
+
                 </div>
                 <div class="coffee-home">
-                    <img src="https://static.wixstatic.com/media/acecb8_49fec47cc0bc46df8a44018278fdc24b~mv2.png/v1/fill/w_634,h_476,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/8_Cheese%20Foam%20Strawberry%20Tea.png" alt="">
+                    <img src="https://static.wixstatic.com/media/acecb8_49fec47cc0bc46df8a44018278fdc24b~mv2.png/v1/fill/w_634,h_476,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/8_Cheese%20Foam%20Strawberry%20Tea.png"
+                        alt="">
                     <h3>Fruit tea</h3>
                     <p>Price : $1.25</p>
-                    
+
                 </div>
                 <div class="coffee-home">
-                    <img src="https://static.wixstatic.com/media/acecb8_de80e9dd24c54ba5ae49ab1760dfbced~mv2.png/v1/fill/w_634,h_476,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/13_Man-coco%20Sticky%20Smoothie.png" alt="">
+                    <img src="https://static.wixstatic.com/media/acecb8_de80e9dd24c54ba5ae49ab1760dfbced~mv2.png/v1/fill/w_634,h_476,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/13_Man-coco%20Sticky%20Smoothie.png"
+                        alt="">
                     <h3>Smooties</h3>
                     <p>Price : $1.25</p>
-                    
+
                 </div>
-               
+
                 <div class="juice-home">
-                    <img src="https://dtgxwmigmg3gc.cloudfront.net/imagery/assets/derivations/icon/512/512/true/eyJpZCI6Ijk0Y2FhZjhlNWVmZTRjNWJkZDQxZjI1OWE1NDk5Njc1LmpwZyIsInN0b3JhZ2UiOiJwdWJsaWNfc3RvcmUifQ?signature=b8346a63db942ece862638761cfe66146a9bb7a98f8ce24ad42f87501fe87cb0" alt="">
+                    <img src="https://dtgxwmigmg3gc.cloudfront.net/imagery/assets/derivations/icon/512/512/true/eyJpZCI6Ijk0Y2FhZjhlNWVmZTRjNWJkZDQxZjI1OWE1NDk5Njc1LmpwZyIsInN0b3JhZ2UiOiJwdWJsaWNfc3RvcmUifQ?signature=b8346a63db942ece862638761cfe66146a9bb7a98f8ce24ad42f87501fe87cb0"
+                        alt="">
                     <h3>juice</h3>
                     <p>Price : $1.25</p>
-                   
+
                 </div>
-                
+
             </div>
         </div>
-        
+
         <div class="main-container">
             <div class="main-middle">
                 <img src="./images/1.png" alt="">
@@ -124,7 +118,7 @@
                 <div class="foter-content">
                     <img src="./images/logo-new.png" alt="">
                     <h3>Low price, high taste!</h3>
-                   
+
                 </div>
             </div>
             <div class="footer-page">
@@ -161,7 +155,7 @@
             </div>
         </footer>
         <p id="finish">© 2025 Daily Drinks All rights reserved.</p>
-   
+
 </body>
 
 </html>

@@ -132,6 +132,9 @@ body {
   }
 }
 @media (max-width: 834px) {
+  ul.active {
+    display: flex;
+  }
   .main-contat {
     width: 390px;
     height: 250px;
@@ -161,9 +164,8 @@ body {
     padding-bottom: 50px;
   }
   .info-product .type2 .juice-home {
-    padding-top: 20px;
+    display: none;
     font-size: 10px;
-    display: flex;
     gap: 15px;
     flex-direction: column;
   }
